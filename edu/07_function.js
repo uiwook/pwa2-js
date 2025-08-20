@@ -49,8 +49,8 @@ function myChk(callback) {
 // 이름없는 '익명함수' 단발성으로 사용
 myChk(() => console.log('콜백함수'));
 
-function Hello(asdfasdf) {
-  asdfasdf();
+function Hello(alam) {
+  alam();
 }
 const test11 = function() {
  console.log('콜백함수');
