@@ -46,7 +46,7 @@ const fnc7 = a => {
 function myChk(callback) {
   callback();
 }
-// 이름없는 '익명함수' 단발성으로 사용
+// 이름없는 '익명함수' 단발성으로 사용(이름이 없기 때문에 재호출 불가능)
 myChk(() => console.log('콜백함수'));
 
 function Hello(alam) {
