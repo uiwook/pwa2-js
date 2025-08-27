@@ -69,6 +69,8 @@ chkPw.addEventListener('change', (e) => {
 
 const plus = document.querySelector('#plus');
 plus.addEventListener('click', (e) => {
-  // const num = document.querySelector('#num');
-  
+  const num = document.querySelector('#num');
+  let number = parseInt(num.textContent);
+  number++;
+  num.textContent = number;
 })
