@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 글자 가운데 정렬 */
+.all {
+  margin: 20px;
+  text-align : center;
+  width: 250px;
+}
+
+/* input과 상자가 들어있는 div의 마진 - html에 있다.*/
+.margin {
+  margin: 20px;
+}
+/* 상자의 style */
+.content-box {
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* 입력하면 나올 상자 */
+.boxstyle {
+  border : 1px, solid #000;
+  border-radius: 10px;
+  margin : 5px;
+  text-align: left;
+  padding: 5px;
+}
+
+/* 완료항목 글자에 그을 줄 */
+.line {
+  text-decoration: line-through;
+}
+
+/* 지우기 박스 */
+.xbox {
+  text-align: center;
+  float: right;
+  font-size: 1rem;
+  background-color: beige;
+  width: 1.5rem;
+  border: 1px solid gray;
+  border-radius: 20%;
+}
