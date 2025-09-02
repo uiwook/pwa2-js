@@ -1,0 +1,28 @@
+* {
+  margin: 5px;
+  padding:0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+.container_block {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.5);
+  width: 100vw;
+  height: 100vh;
+}
+.wait_btn {
+  width: 100px;
+  height: 2rem;
+  margin: 0 auto;
+  align-self: center;
+}
+.img_css {
+  width: 100%;
+}
+.img_css:hover {
+  border: 2px solid #000;
+}
